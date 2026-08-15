@@ -9,11 +9,11 @@ const loadHome = () => {
     image.src = "./images/restaurant.jpg";
     image.alt = "A fancy restaurant";
 
-    const divContent = document.querySelector("#content");
+    const contentDiv = document.querySelector("#content");
 
-    divContent.appendChild(heading);
-    divContent.appendChild(paragraph);
-    divContent.appendChild(image);
+    contentDiv.appendChild(heading);
+    contentDiv.appendChild(paragraph);
+    contentDiv.appendChild(image);
 }
 
-export default loadHomepage;
+export default loadHome;
